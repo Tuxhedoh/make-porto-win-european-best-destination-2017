@@ -9,9 +9,9 @@ const OPEN_PAGE_TIMEOUT = process.env.OPEN_PAGE_TIMEOUT || 120000
 const EXECUTION_TIMEOUT = process.env.EXECUTION_TIMEOUT || 90000
 const PROXY = process.env.PROXY
 
-const POLLDADDY_POLL_URL = 'http://www.europeanbestdestinations.com/best-of-europe/european-best-destinations-2017/'
-const POLLDADDY_POLL_ID = '9632536'
-const POLLDADDY_POLL_OPTION_ID = '44047129'
+const POLLDADDY_POLL_URL = 'https://poll.fm/'
+const POLLDADDY_POLL_ID = '10753695'
+const POLLDADDY_POLL_OPTION_ID = '49666889'
 
 const _ = require('lodash')
 
